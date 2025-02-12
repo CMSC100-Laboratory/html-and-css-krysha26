@@ -1,78 +1,121 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-	    <title>Sample Web Page</title>
-	    <style>
-	        .flex-container {
-	            display: flex;
-	            border-style: solid;
-	            border-width: 5px;
-	            border-color: red;
-	            flex-direction: column;
-	        }
+    <head>
+        <link rel = "stylesheet" href = "design.css">
+        <link rel = "icon" type = "image/png" href = "resources/logo.png">
+        <title>
+            Krysha Fei C. Maceda
+        </title>
+    </head>
 
-	        .flex-item {
-	            border-style: solid;
-	            border-width: 2px;
-	            border-color: red;
-	        }
+    <body>
 
-	    </style>
-	</head>
+        <a id = "top"></a>
 
-	<head>
-		<title>Sample Web Page</title>
-	</head>
+        <div class = "navigation">
 
-	<body>
-		<h1>This is a heading</h1>
-		<p>This is the first paragraph of text</p>
-		<hr />
-		<p>This is the second paragraph of text</p>
-		<hr />
-		<div class="flex-container">
-    <div>
-        <h1>1</h1>
-        <p>This is a paragraph</p>
-    </div>
-    <div class="flex-container">
-    <div class="flex-item" style="flex: 3;">
-        <h1>1</h1>
-        <p>This is a paragraph</p>
-    </div>
-    <div class="flex-item" style="flex: 3;">
-        <h1>2</h1>
-        <p>This is another paragraph</p>
-    </div>
-    <div class="flex-item" style="flex: 2;">
-        <h1>3</h1>
-        <p>This is another paragraph</p>
-        <p>This is another paragraph</p>
-    </div>
-    <div class="flex-item" style="flex: 4;">
-        <h1>4</h1>
-        <p>This is another paragraph</p>
-    </div>
-    <div class="flex-item" style="flex: 3;">
-        <h1>5</h1>
-        <p>This is another paragraph</p>
-        <p>This is another paragraph</p>
-        <p>This is another paragraph</p>
-        <p>This is another paragraph</p>
-        <p>This is another paragraph</p>
-    </div>
-    <div class="flex-item" style="flex: 1;">
-        <h1>6</h1>
-        <p>This is another paragraph</p>
-    </div>
-</div>
+            <div class = "header-logo">
+                <img src = "images/logo.png"   />
+                <h2 id = "name"> Krysha Maceda</h2>
+            </div>
 
-    ...
-</div>
+            <ul>
+                <li class = "nav-item"><a href = #projects> Projects </a></li>
+                <li class = "nav-item"><a href = "#skills"> Skills </a></li>
+                <li class = "nav-item"><a href = "#bio"> About</a></li>
+                <li class = "nav-item"><a href = "#contact"> Contact</a></li>
+            </ul>
+            
 
-	</body>
+        </div>
+
+        <div class = "featured">
+
+            <div class = "featured-photo">
+                <img src = "images/krysha.jpg"   />
+            </div>
+
+            <div class = "intro-text">
+                <h1>Hi! I am Krysha Fei C. Maceda.</h1>
+                <p>	I have always been drawn to the power of data, which led me to pursue a degree in Statistics. To strengthen my analytical and computational skills, I chose Computer Science as my elective, allowing me to explore programming and data-driven problem-solving. With a passion for turning raw data into meaningful insights, I aspire to become a Data Scientist who can make a real impact through innovation and technology.
+                </p>
+            </div>
+
+        </div>
 
 
+        <!----Previous Projects---->
+
+        <h1>Previous Projects</h1>
+
+        <div class = "projects" id = "projects">
+            <div class = "proj-item">
+                <h2>Diet Problem Solver</h2>
+                <img src = "images/diet.png" class=proj />
+                <p>The Diet Problem Solver is an R-based program that utilizes the Simplex Method to determine the optimal food servings that meet nutritional requirements while staying within a given budget.</p>
+            </div>
+            <div class = "proj-item">
+                <h2>Student Information System</h2>
+                <img src = "images/project2.png" class=proj />
+                <p>The Student Information System Project is a digital platform designed to efficiently manage and organize student records, including personal details, academic performance, and enrollment information.
+                </p>
+            </div>
+
+            <div class = "proj-item">
+                <h2>UPLB Cats and Dogs</h2>
+                <img src = "images/project3.png" class=proj />
+                <p>UPLB Cats and Dogs is a competitive game where cats and dogs battle for food, using unique skills to hinder their opponents, with the winner being the one who collects the most food.
+                </p>
+            </div>
+
+            <div class = "proj-item">
+                <h2>ATM Simulation</h2>
+                <img src = "images/project4.jpg" class=proj />
+                <p>The ATM Simulation is a program that mimics real-world ATM transactions, allowing users to perform operations like withdrawals, deposits, balance inquiries, and fund transfers in a virtual banking environment.
+                </p>
+            </div>
+
+        </div>
+
+        <!----Skills and Autobiography---->
+
+        <div class = "skillbio">
+            <div class = "skillbio-item" id = "skills">
+
+                <h2>Skills</h2>
+                 <p>I excel in developing efficient solutions for complex problems, leveraging my analytical and programming skills to create effective outcomes. I have experience in organizing events, competitions, and research projects, ensuring smooth execution and meaningful engagement. Additionally, I am adept at managing teams and coordinating with organizations to achieve shared goals. My strong writing skills enable me to craft clear and concise scripts, documentation, and reports, contributing to well-structured and professional communications.
+                </p>
+
+
+            </div>
+
+            <div class = "skillbio-item" id = "bio">
+                <h2>Autobiography</h2>
+                <p>I have always been fascinated by the power of data, which led me to pursue a degree in Statistics. To enhance my analytical skills, I chose Computer Science as my elective, equipping myself with the necessary programming and computational techniques. My goal is to become a Data Scientist, using data-driven insights to solve real-world problems.
+                </p>
+            </div>
+
+        </div>
+
+        <!----Contact Information and Footer---->
+
+        <div class = "footer">
+
+            <div class = "contact-list" id = "contact">
+                <ul>
+                    <li>Created by Krysha Fei C. Maceda (2024)</li>
+                    <li>Olongapo City, Zambales, Philippines</li>
+                    <li>Contact Number: 09162102713/09625266432</li>
+                    <li>Social Media Accounts: 
+                        <a href = "https://github.com/krysha26" target="_blank">Github</a>
+                        <a href = "https://www.facebook.com/profile.php?id=100008544697896" target="_blank">Facebook</a>
+                    </li>
+                    <li><a href ="#top">Back to Top</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
 
 </html>
