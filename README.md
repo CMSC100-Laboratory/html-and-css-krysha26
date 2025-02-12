@@ -1,5 +1,5 @@
-Full Name: Krysha Fei C. Maceda
-Degree Program: BS Statistics
+Greetings! I am Krysha Fei C. Maceda.
+I am a BS Statistics student.
 Live Website Link: https://cmsc100-laboratory.github.io/html-and-css-krysha26
 Steps on how to create GitHub page:
   Step 1: Create a GitHub Repository
