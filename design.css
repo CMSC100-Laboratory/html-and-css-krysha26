@@ -220,7 +220,20 @@ h1{
 
 
 .proj {
-    width: 500px; /* Adjust width as needed */
+    width: 300px; /* Adjust width as needed */
     height: 250px; /* Keeps aspect ratio */
 }
 
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px; /* Adds space between items */
+}
+
+.proj-item {
+    flex: 1; /* Makes each item take equal space */
+    min-width: 200px; /* Ensures items don’t shrink too much */
+    text-align: center;
+}
